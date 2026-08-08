@@ -21,7 +21,7 @@ def change_color(s):
 scene.append_to_caption('\n\n')
 
 # Red 슬라이더
-scene.append_to_caption('Red (빨강): ')
+scene.append_to_caption('Red (빨강):    ')
 sl_R = slider(min=0, max=1, value=0, length=200, bind=change_color)
 scene.append_to_caption('\n\n')
 
@@ -31,7 +31,7 @@ sl_G = slider(min=0, max=1, value=0, length=200, bind=change_color)
 scene.append_to_caption('\n\n')
 
 # Blue 슬라이더
-scene.append_to_caption('Blue (파랑): ')
+scene.append_to_caption('Blue (파랑):   ')
 sl_B = slider(min=0, max=1, value=0, length=200, bind=change_color)
 
 # 현재 값을 보여주는 텍스트 라벨 (vpython의 wtext 기능 사용)
